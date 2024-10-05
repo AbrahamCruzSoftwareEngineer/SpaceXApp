@@ -1,31 +1,37 @@
 https://github.com/user-attachments/assets/f960b816-2ddf-4f4e-9ea2-adf51c4afe2f
 
-App Description:
+<h1>SpaceX Launch App</h1>
 
-The SpaceX Launch Explorer is a modern Android application that showcases the latest and historical SpaceX launches, 
-offering detailed insights and multimedia integration. Built with cutting-edge technologies and following best practices in Android development, 
-this app is designed for both performance and scalability.
+<p>Welcome to the <strong>SpaceX Launch App</strong> for exploring the latest SpaceX flight missions! Built with modern Android development practices, this app provides detailed information on various SpaceX launches, including mission details, rocket information, and embedded videos for each flight.</p>
 
-Key Features:
-Flight Information: Displays flight number, mission name, rocket name, rocket type, launch site, and flight details for each SpaceX launch.
-Video Integration: Watch YouTube videos associated with specific launches, seamlessly embedded within the app's UI.
-Lazy Loading and Pagination: Efficiently loads flight data from a local database and API, with smooth pagination for a seamless browsing experience.
-Room Database: Stores SpaceX launch data locally for offline access, ensuring that users can explore flights without an active internet connection.
+<h2>Key Features</h2>
+<ul>
+    <li><strong>Flight Information:</strong> Displays flight number, mission name, rocket name, rocket type, launch site, and flight details for each SpaceX launch.</li>
+    <li><strong>Video Integration:</strong> Watch YouTube videos associated with specific launches, seamlessly embedded within the app's UI.</li>
+    <li><strong>Lazy Loading and Pagination:</strong> Efficiently loads flight data from a local database and API, with smooth pagination for a seamless browsing experience.</li>
+    <li><strong>Room Database:</strong> Stores SpaceX launch data locally for offline access, ensuring that users can explore flights without an active internet connection.</li>
+</ul>
 
-Tech Stack & Architecture:
-Architecture: The app follows the MVVM (Model-View-ViewModel) architecture, ensuring separation of concerns, easier maintenance, and scalability.
-Dependency Injection: Powered by Hilt for efficient and modular dependency management.
-Coroutines & LiveData: The app leverages Kotlin coroutines for asynchronous tasks and LiveData for observing UI-related data in a lifecycle-conscious way.
-Jetpack Compose: Built with Jetpack Compose, Android's modern declarative UI toolkit, providing a responsive, dynamic, and beautiful user interface.
-Retrofit: Retrofit is used for making efficient API calls to fetch SpaceX data from the official SpaceX API.
-Room Database: Local data is handled using Room, ensuring persistent storage and efficient retrieval of data.
-WebView: YouTube videos are embedded within a WebView, allowing users to watch related mission videos directly inside the app.
+<h2>Tech Stack & Architecture</h2>
+<ul>
+    <li><strong>MVVM Architecture:</strong> Follows the <em>Model-View-ViewModel (MVVM)</em> pattern for clean separation of concerns and scalability.</li>
+    <li><strong>Dependency Injection:</strong> Powered by <em>Hilt</em> for efficient and modular dependency management.</li>
+    <li><strong>Coroutines & LiveData:</strong> Uses Kotlin <em>coroutines</em> for asynchronous tasks and <em>LiveData</em> for observing UI-related data.</li>
+    <li><strong>Jetpack Compose:</strong> Built with <em>Jetpack Compose</em>, Android's modern declarative UI toolkit, for responsive and dynamic UIs.</li>
+    <li><strong>Retrofit:</strong> Makes efficient API calls to fetch SpaceX data using <em>Retrofit</em>.</li>
+    <li><strong>Room Database:</strong> Handles local data persistence using <em>Room</em> for storing and retrieving flight information.</li>
+    <li><strong>WebView:</strong> Embeds YouTube videos within the app using <em>WebView</em>.</li>
+</ul>
 
-Libraries & Dependencies:
-Jetpack Compose: Used for building the app's UI in a declarative and reactive manner.
-Retrofit: For making network requests to the SpaceX API and parsing the JSON responses.
-Hilt: For dependency injection, ensuring easy management of app components.
-Room: As the local database solution to store flight information.
-Coil: For loading images efficiently from the web.
-and more...
+<h2>Libraries & Dependencies</h2>
+<ul>
+    <li><strong>Jetpack Compose</strong>: Declarative UI</li>
+    <li><strong>Retrofit</strong>: API calls</li>
+    <li><strong>Hilt</strong>: Dependency injection</li>
+    <li><strong>Room</strong>: Local database</li>
+    <li><strong>Coil</strong>: Image loading</li>
+    <li><strong>Mockito</strong>: Unit testing</li>
+    <li><strong>Coroutines</strong>: Asynchronous programming</li>
+  <li><strong>And more...</strong></li>
+</ul>
 
