@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpaceXApp</string>
+    <string name="main_screen_title">Welcome to SpaceX App</string>
+    <string name="main_screen_loading_message">Loading more items...</string>
+    <string name="main_screen_invalid_id">Invalid flight ID</string>
+    <string name="main_screen_loading">Loading...</string>
+</resources>

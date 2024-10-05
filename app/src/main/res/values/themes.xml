@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<style name="Theme.SpaceXApp" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.SpaceXApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#000000</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_space_x_launcher_round</item>
+        <item name="android:windowSplashScreenAnimationDuration">1500</item>
+    </style>
+
+</resources>
+
